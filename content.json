@@ -1,0 +1,36 @@
+{
+  "notes": [
+    {
+      "title": "Mathematics",
+      "description": "Algebra, Calculus, and Statistics notes",
+      "link": "notes/mathematics.html"
+    },
+    {
+      "title": "Science",
+      "description": "Biology, Chemistry, and Physics resources",
+      "link": "notes/science.html"
+    },
+    {
+      "title": "History",
+      "description": "Historical events and analysis",
+      "link": "notes/history.html"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Project One",
+      "description": "Description of your first project",
+      "link": "#"
+    },
+    {
+      "title": "Project Two",
+      "description": "Description of your second project",
+      "link": "#"
+    },
+    {
+      "title": "Project Three",
+      "description": "Description of your third project",
+      "link": "#"
+    }
+  ]
+}

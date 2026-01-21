@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Notes & Projects</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="logo">📚 My School Notes & Projects</h1>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#notes" class="nav-link">Notes</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Welcome to My Academic Portfolio</h2>
+            <p>A collection of my school notes, study materials, and projects</p>
+            <button class="cta-button" onclick="scrollToSection('notes')">Explore Notes</button>
+        </div>
+    </section>
+
+    <section id="notes" class="section">
+        <div class="container">
+            <h2 class="section-title">📝 Notes</h2>
+            <p class="section-subtitle">Organized by subject and topic</p>
+            <div class="grid">
+                <!-- Notes will be added here dynamically -->
+                <div class="card placeholder">
+                    <h3>Add Your First Note</h3>
+                    <p>Create folders and add markdown files to get started</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section alt-bg">
+        <div class="container">
+            <h2 class="section-title">🚀 Projects</h2>
+            <p class="section-subtitle">Cool projects I've built</p>
+            <div class="grid">
+                <!-- Projects will be added here dynamically -->
+                <div class="card placeholder">
+                    <h3>Add Your First Project</h3>
+                    <p>Share your projects and work</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About This Site</h2>
+            <div class="about-content">
+                <p>This is a personal portfolio website for organizing and showcasing school notes, study materials, and academic projects.</p>
+                <p>Feel free to customize this site with your own content, colors, and design preferences!</p>
+                <h3>How to Add Content:</h3>
+                <ul>
+                    <li>Create a <code>notes/</code> folder for your study materials</li>
+                    <li>Create a <code>projects/</code> folder for your project information</li>
+                    <li>Add markdown files (.md) with your content</li>
+                    <li>Update the content in this file or create a content JSON file</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 My School Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
